@@ -1,13 +1,13 @@
 package com.example.demo.entities;
 
 public abstract class Lanche {
-    private long id;
+    private String id;
     private String nome;
     private String descricao;
     private Sabor sabor;
     private Double preco;
 
-    public long getId() {
+    public String getId() {
         return this.id;
     }
 
