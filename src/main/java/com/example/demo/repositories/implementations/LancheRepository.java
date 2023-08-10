@@ -1,9 +1,12 @@
 package com.example.demo.repositories.implementations;
 
+import com.example.demo.dtos.LancheDTO;
 import com.example.demo.entities.Lanche;
 import com.example.demo.repositories.Repository;
 import org.springframework.stereotype.Component;
 
+import java.beans.Beans;
+import java.beans.JavaBean;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
